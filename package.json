@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://Tscheschlog.github.io",
   "scripts": {
+    "export": "next export",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
