@@ -9,7 +9,7 @@ function About({}: Props) {
       className="flex flex-col relative h-screen text-center md:text-left
     md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-grey-500 text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
 
@@ -30,24 +30,7 @@ function About({}: Props) {
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">
           Here is a{" "}
-          <span className="underline decoration-[#f7ab0a] hover:bg-purple-400 ">
-            l
-          </span>
-          <span className="underline decoration-[#f7ab0a] hover:bg-purple-500 ">
-            i
-          </span>
-          <span className="underline decoration-[#f7ab0a] hover:bg-purple-600 ">
-            t
-          </span>
-          <span className="underline decoration-[#f7ab0a] hover:bg-purple-700 ">
-            t
-          </span>
-          <span className="underline decoration-[#f7ab0a] hover:bg-purple-800 ">
-            l
-          </span>
-          <span className="underline decoration-[#f7ab0a] hover:bg-purple-900 ">
-            e
-          </span>{" "}
+          <span className="underline decoration-[#f7ab0a]">little</span>{" "}
           background
         </h4>
         <p className="text-base">
