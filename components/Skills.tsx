@@ -22,20 +22,20 @@ function Skills({}: Props) {
       </h3>
 
       <div className="grid grid-cols-4 gap-5">
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        <Skill directionLeft={true} proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"}/>
+        <Skill directionLeft={true} proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg"}/>
+        <Skill directionLeft={true} proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"}/>
+        <Skill directionLeft={true} proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"}/>
+        <Skill directionLeft={true} proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"}/>
+        <Skill directionLeft={true} proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"}/>
+        <Skill directionLeft={true} proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"}/>
+        <Skill directionLeft={true} proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"}/>
+        <Skill proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"} />
+        <Skill proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"} />
+        <Skill proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"} />
+        <Skill proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"} />
+        <Skill proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"} />
+        <Skill proficiency={"100"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"} />
       </div>
     </motion.div>
   );
