@@ -10,7 +10,7 @@ type Props = {
   tools: string[];
 };
 
-export default function ExperienceCard({ company, title, summary, startToEnd, logo }: Props) {
+export default function ExperienceCard({ company, title, summary, startToEnd, logo, tools }: Props) {
   return (
     <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[500px] xl:w-[700px] h-[560px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
@@ -32,17 +32,17 @@ export default function ExperienceCard({ company, title, summary, startToEnd, lo
         <div className="flex space-x-2 my-2">
           <img
             className="h-10 w-10 rounded-full"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            src={tools[0]}
             alt=""
           />
           <img
             className="h-10 w-10 rounded-full"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            src={tools[1]}
             alt=""
           />
           <img
             className="h-10 w-10 rounded-full"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            src={tools[2]}
             alt=""
           />
         </div>
