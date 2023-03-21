@@ -32,7 +32,7 @@ const projectsVals = [{
 {
   name: "Typing Test", 
   desc: "A typing test built with vanilla JS, HTML, and CSS lets users gauge their typing speed and accuracy through a web app that shows a text passage, a timer, and a text box for user input. Users start the test by clicking a button or typing the first word, after which the timer counts down. After the user completes the passage, the app presents their typing speed, accuracy, and any errors made.", 
-  image: "https://user-images.githubusercontent.com/72578289/225147780-c0bf701e-b8a4-4848-a607-db7fcf9c2417.png"
+  image: "#"
 }]
 
 const Projects = ({}: Props) => {

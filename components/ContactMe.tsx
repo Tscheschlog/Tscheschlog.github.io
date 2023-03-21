@@ -33,7 +33,7 @@ function ContactMe({}: Props) {
 
       <div className="flex flex-col space-y-10">
         <h4 className="relative top-5 text-2xl xl:text-4xl font-semibold text-center">
-          I have got just what you need.{" "}
+          This is exactly what you've been searching for.{" "}
           <span className="decoration-[#f7ab0a]/50 underline">
             Let{"'"}s Talk.
           </span>

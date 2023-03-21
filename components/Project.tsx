@@ -25,7 +25,7 @@ function Project({projName, description, image, index, totalProjects}: Props) {
             viewport={{ once: true }}
             className="max-w-sm"
             src={image}
-            alt="this is the project image"
+            alt=""
           />
 
           <div className="space-y-10 px-0 md:px-10">
