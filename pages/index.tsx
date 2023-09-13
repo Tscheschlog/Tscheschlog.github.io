@@ -50,7 +50,7 @@ export default function Home() {
       <footer className="sticky bottom-5 w-full cursor-pointer">
         <Link href="/#hero" legacyBehavior>
           <div className="flex items-center justify-center">
-            <img
+            <Image
               className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
               src="https://media.istockphoto.com/id/875359308/vector/comet-icon.jpg?s=612x612&w=0&k=20&c=igrSrtnPQuXdkccPulaOjUCEWPjGzLal7L0bNFie-gc="
               alt=""
