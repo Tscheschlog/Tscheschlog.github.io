@@ -7,7 +7,7 @@ type Props = {};
 const projectsVals = [{
   name: "Conway's Game of Life", 
   desc: "Conway's Game of Life is a 2D cellular automaton where cells are alive or dead, based on neighboring cells' state, and evolve over time steps. The implementation uses C++, CMake, and SFML.", 
-  image: "#"
+  image: "assets/gol.png"
 },
 {
   name: "Dialogflow Collector", 
@@ -17,22 +17,22 @@ const projectsVals = [{
 {
   name: "Ray Tracing", 
   desc: "A raytracer is a computer graphics technique used to generate realistic images by simulating the behavior of light. This is a typical implementation using C++ and CMake, the technique involves casting a ray from a virtual camera through each pixel in an image plane, and calculating the path of the ray as it interacts with virtual objects in a scene. The shown materials are lambertian, metal, and dielectric.", 
-  image: "#"
+  image: "assets/ray.png"
 },
 {
   name: "Multiplayer Snake", 
   desc: "In this implementation of Snake, the game supports single-player and multiplayer modes. The game was developed using C++ programming language, leveraging the build system CMake and the multimedia library SFML. The single-player mode requires the player to collect food to grow the snake while avoiding obstacles such as walls and the snake's own body. In multiplayer mode, two players compete to collect food and grow their snakes. ", 
-  image: "#"
+  image: "assets/snake.png"
 },
 {
   name: "Connect Four", 
   desc: "A two-player strategy game where the objective is to connect four disks of the same color in a row, column, or diagonal. This implementation was created using basic web technologies of HTML, CSS, and vanilla JavaScript. The game board is displayed using an HTML canvas and disks are represented as an integer between 0 - 2. The JavaScript code handles game logic, including detecting valid moves, wins, and turn management. Players can click on the board to drop their disks, and the game ends when a player connects four disks or the board is filled.", 
-  image: "#"
+  image: "assets/connect.png"
 },
 {
   name: "Typing Test", 
   desc: "A typing test built with vanilla JS, HTML, and CSS lets users gauge their typing speed and accuracy through a web app that shows a text passage, a timer, and a text box for user input. Users start the test by clicking a button or typing the first word, after which the timer counts down. After the user completes the passage, the app presents their typing speed, accuracy, and any errors made.", 
-  image: "#"
+  image: "assets/tytest.png"
 }]
 
 const Projects = ({}: Props) => {
